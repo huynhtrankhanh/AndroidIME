@@ -1,4 +1,4 @@
-package com.example.androidime;
+package com.huynhtrankhanh.androidime;
 
 import android.content.Context;
 import android.graphics.Canvas;
