@@ -1,5 +1,4 @@
 apply(plugin = "com.android.application")
-apply(plugin = "org.jetbrains.kotlin.android")
 
 android {
     namespace = "com.example.androidime"
@@ -28,11 +27,4 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-}
-
-dependencies {
-    implementation("androidx.core:core-ktx:1.13.1")
 }

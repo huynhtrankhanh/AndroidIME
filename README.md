@@ -7,4 +7,4 @@ Minimal Android IME project:
 
 Built APK committed at:
 
-- `/home/runner/work/AndroidIME/AndroidIME/artifacts/app-debug.apk`
+- `artifacts/app-debug.apk`
