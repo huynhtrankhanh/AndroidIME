@@ -8,10 +8,12 @@ import android.widget.FrameLayout;
 import java.util.Locale;
 
 public class UppercaseImeService extends InputMethodService {
+    private static final int IME_HEIGHT_DP = 220;
+
     @Override
     public View onCreateInputView() {
         FrameLayout root = new FrameLayout(this);
-        int heightPx = (int) (220 * getResources().getDisplayMetrics().density);
+        int heightPx = (int) (IME_HEIGHT_DP * getResources().getDisplayMetrics().density);
         root.setLayoutParams(new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.MATCH_PARENT,
                 heightPx
