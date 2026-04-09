@@ -1,11 +1,11 @@
 apply(plugin = "com.android.application")
 
 android {
-    namespace = "com.example.androidime"
+    namespace = "com.huynhtrankhanh.androidime"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androidime"
+        applicationId = "com.huynhtrankhanh.androidime"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
